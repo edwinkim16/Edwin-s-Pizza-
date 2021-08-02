@@ -78,7 +78,7 @@
     flex-direction: row;
 } 
  #locationDetails{
-    /* display: none; */
+    display: none; 
 } 
 #location{
     color: black;
@@ -92,4 +92,17 @@ select{
 
 form div {
     width: 100%;
+}
+button{
+    padding: 15px;
+    margin-top: 8px;
+    background-color: #164A41;
+    width: 30%;
+    
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+button:hover{
+    background-color:  #ffa8B6;
 }
