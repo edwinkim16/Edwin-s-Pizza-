@@ -73,3 +73,23 @@
     padding: 20px;
     background-color: rgb(0, 0, 0, 0.5);
 }
+ #deliveryOption{
+    display: flex;
+    flex-direction: row;
+} 
+ #locationDetails{
+    /* display: none; */
+} 
+#location{
+    color: black;
+}
+select{
+    color: black;
+}
+#pizzaNumberTotal{
+    color: black;
+}
+
+form div {
+    width: 100%;
+}
