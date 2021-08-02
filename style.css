@@ -50,3 +50,15 @@
     background-color: #747474;
    
 }
+.customer{
+    /* text-align: center; */
+    border-radius: 3px solid;
+    width: 100%;
+    background-image: url(./assets/ipi2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 40px 20px;
+    
+}
