@@ -658,3 +658,12 @@ $(document).ready(function(){
         
     })
 })
+
+$(document).ready(function(){
+    $("#radioDelivery").click(function(){
+        $("#locationDetails").show()
+    })
+    $("button").click(function(){
+        $("#locationDetails").hide()
+    })
+})
