@@ -1,0 +1,131 @@
+
+
+.topnav{
+    display: flex;
+    background-color: #1f2833;
+    box-shadow: 0px 0px 30px gray;
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
+    width: 59.2%;
+    color: white;
+}
+.topnav img{
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    padding: 2px;
+    border: 1px solid white;
+    border-radius: 50px;
+}
+.topnav p{
+    font-size: 25px;
+}
+.maincontent{
+    margin-top:  7%; 
+    background-image: url(./assets/images\ \(1\).jpeg); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.content{
+    background-color: rgb(20, 20, 20, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.content p{
+    font-size: 19px;
+}
+.text{
+    color: white;
+}
+.pizzasize{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1e392a;
+    background-color: #747474;
+   
+}
+.customer{
+  
+    border-radius: 3px solid;
+    width: 100%;
+    background-image: url(./assets/ipi2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 40px 20px;
+    
+}
+.order div{
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    background-color: rgb(20, 20, 20, 0.5);
+}
+.collectorder{
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(0, 0, 0, 0.5);
+}
+ #deliveryOption{
+    display: flex;
+    flex-direction: row;
+} 
+ #locationDetails{
+    display: none; 
+} 
+#location{
+    color: black;
+}
+select{
+    color: black;
+}
+#pizzaNumberTotal{
+    color: black;
+}
+
+form div {
+    width: 100%;
+}
+button{
+    padding: 15px;
+    margin-top: 8px;
+    background-color: #164A41;
+    width: 30%;
+    
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+button:hover{
+    background-color:  #ffa8B6;
+}
+.card-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    background-color: #242582;
+    color: white;
+    font-size: larger;
+}
+.formOutput {
+    background-color: #164A41;
+    color: #F1B24A;
+    font-size: larger;
+    border-radius: 4px solid ;
+    box-shadow: 0px 0px 30px blue;
+    width: 30%;
+    position: fixed;
+    top: 10vh;
+    right: 25%;
+    left: 20%;
+    z-index: 2; 
+    display: none;   
+}
