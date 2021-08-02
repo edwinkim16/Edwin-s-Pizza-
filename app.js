@@ -33,3 +33,18 @@ CustomerOrder.prototype.edwinPizza = {
         {pineaple_mushrooms: 700}
     ]
 }
+
+$(document).ready(function(){
+    $("button#customerorder").click(function(event){
+        event.preventDefault();
+
+        var typeOfPizza=$("#pizzaType").val();
+        var pizzaSize = $("#pizzaSize").val();
+        var crust = $("#crust").val();
+        var toppings = $("#toppings").val();
+        var deliveryOption = $("input[name='delivery']").val()
+        var pizzaNumberTotal = parseInt($("#pizzaNumberTotal").val());
+        var deliveryLocation = $("#location").val();
+
+    })
+})
