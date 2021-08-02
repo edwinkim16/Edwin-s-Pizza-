@@ -7,7 +7,7 @@
     position: fixed;
     align-items: center;
     justify-content: space-between;
-    width: 70%;
+    width: 59.2%;
     color: white;
 }
 .topnav img{
@@ -41,4 +41,12 @@
 }
 .text{
     color: white;
+}
+.pizzasize{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1e392a;
+    background-color: #747474;
+   
 }
