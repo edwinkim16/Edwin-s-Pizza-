@@ -106,3 +106,12 @@ button{
 button:hover{
     background-color:  #ffa8B6;
 }
+.card-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    background-color: #242582;
+    color: white;
+    font-size: larger;
+}
